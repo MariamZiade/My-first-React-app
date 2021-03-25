@@ -1,7 +1,11 @@
-import "./App.css";
+import React, { Component } from 'react';
+import Todo from './components/Todo';
+import './App.css';
 
-function App() {
-  return <h1>Mariam Ziadé</h1>;
+class App extends Component {
+  render() {
+    return <Todo />;
+  }
 }
 
 export default App;
